@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+}
+
+.MainBody{
+  width: 100%;
+  height: 100%;
+}
+
+.Top{
+  width: 100%;
+  height: 35%;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Top .ImageDiv{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #ddd;
+  position: relative;
+}
+.Top .ImageDiv img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #eee;
+  object-fit: cover;
+}
+
+.AddImgIcon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #fff;
+}
+
+.Top .ImageDiv input{
+  display: none;
+}
+
+.Down{
+  width: 100%;
+  height: 65%;
+  background: lightcoral;
+}

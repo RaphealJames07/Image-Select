@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Select</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/4e6ce01e29.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <img src="" alt="" style="width:150px; height: 150px; background: #ddd; border-radius: 50%;" class="img">
-  <input type="file" id="file" name="file" style="cursor: pointer;" accept=".png,.jpg" multiple >
-
-  <script src="./script.js"></script>
+    <div class="MainBody">
+        <div class="Top">
+            <div class="ImageDiv">
+                <img src="" alt="" id="Image">
+                <span class="AddImgIcon" id="AddImgIcon">
+                    <i class="fa-solid fa-plus "></i>
+                </span>
+                <input type="file" id="fileInput" accept="image/jpeg, image/png">
+            </div>
+        </div>
+        <div class="Down"></div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
